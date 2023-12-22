@@ -1,0 +1,86 @@
+
+.bgd {
+    background-color: #99b4bf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: #253C59;
+    color: #bf8d30;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.weather-box {
+    border: solid 6px;
+    margin: 10px 60px 10px 10px;
+    width: 65%;
+    float: right;
+    padding: 10px;
+    background-color: #2d4b73;
+    color: #d9b70d;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.htwo {
+    font-weight: bold;
+}
+
+#userInput {
+    margin-left: 15px;
+    width: 25%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+#searchBtn {
+    margin-left: 15px;
+    width: 25%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: #2d4b73;
+    color: #d9b70d;
+}
+
+.Btn {
+    margin-left: 15px;
+    width: 25%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: aqua;
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    background-color: #2d4b73;
+    color: #d9b70d;
+
+}
+
+.fivedays {
+    border: solid 6px;
+    margin: 10px 60px 10px 10px;
+    width: 65%;
+    float: right;
+    padding: 10px 10px 200px 10px;
+    background-color: #2d4b73; 
+    color: #d9b70d;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #d9b70d
+}
