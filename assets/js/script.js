@@ -21,12 +21,16 @@ let weather = {
         let fahrenheit = celcius * (9/5) + 32;
         fahrenheit = Math.floor(fahrenheit);
 
-        document.querySelector("#city").innerText = "Weather in " + name + ":";
+        var currentDay = dayjs().format('M/DD/YYYY');
+
+        document.querySelector("#city").innerText = "Weather in " + name + " " + currentDay + ":";
         document.querySelector("#temperature").innerText = "Temp: " + fahrenheit + "°F";
         document.querySelector("#humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector("#wind").innerText = "Wind Speed: " + speed + " MPH";
-        document.querySelector("#icon").src ="https://openweathermap.org/img/wn/" + icon + "01n@2x.png";
+        document.querySelector("#icon").src = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
     },
+
+    
 
     search: function () {
         this.fetchWeather(document.querySelector("#userInput").value);
@@ -34,7 +38,8 @@ let weather = {
 };
 
 document.querySelector("#searchBtn").addEventListener("click", function () {
-    weather.search();
+    weather.search(); 
+});
 
-    
-})
+
+

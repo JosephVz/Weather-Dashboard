@@ -21,8 +21,8 @@
     </header>
 
     <div class = "weather-box">
-    <h1 id="city">Temporary Header</h1>
-    <ul id="icon"></ul>
+    <h1 id="city">Searched city will appear here:</h1>
+    <img src="" alt="" id="icon"/>
     <ul id="temperature">Temp:</ul>
     <ul id="wind">Wind:</ul>
     <ul id="humidity">Humidity:</ul>
@@ -31,7 +31,43 @@
     <input id="userInput" placeholder="Ex. San Diego">
     <button id="searchBtn">Search</button>
     <h2 class="htwo">Popular Cities</h2>
-    <h3 class="fivedays">5-Day Forecast:</h3>
+
+    <h3 class="fivedays" id="forecast">5-Day Forecast:
+
+        <div class = "five">
+
+        <ul id="city1">( ____ )</ul>
+        <img src="" alt="" id="icon1"/>
+        <ul id="temperature1">Temp: __ F</ul>
+        <ul id="wind1">Wind: __ MPH</ul>
+        <ul id="humidity1">Humidity: __%</ul>
+
+        <ul id="city2">( ____ )</ul>
+        <img src="" alt="" id="icon2"/>
+        <ul id="temperature2">Temp: __ F</ul>
+        <ul id="wind2">Wind: __ MPH</ul>
+        <ul id="humidity2">Humidity: __%</ul>
+
+        <ul id="city3">( ____ )</ul>
+        <img src="" alt="" id="icon3"/>
+        <ul id="temperature3">Temp: __ F</ul>
+        <ul id="wind3">Wind: __ MPH</ul>
+        <ul id="humidity3">Humidity: __%</ul>
+
+        <ul id="city4">( ____ )</ul>
+        <img src="" alt="" id="icon4"/>
+        <ul id="temperature4">Temp: __ F</ul>
+        <ul id="wind4">Wind: __ MPH</ul>
+        <ul id="humidity4">Humidity: __%</ul>
+
+        <ul id="city5">( ____ )</ul>
+        <img src="" alt="" id="icon5"/>
+        <ul id="temperature5">Temp: __ F</ul>
+        <ul id="wind5">Wind: __ MPH</ul>
+        <ul id="humidity5">Humidity: __%</ul>
+        </h3>
+    </div>
+
     <button class="Btn" id="Atlanta">Atlanta</button>
     <button class="Btn" id="Denver">Denver</button>
     <button class="Btn" id="Seattle">Seattle</button>
@@ -39,8 +75,17 @@
     <button class="Btn" id="Orlando">Orlando</button>
     <button class="Btn" id="New York">New York</button>
     <button class="Btn" id="Chicago">Chicago</button>
-    <button class="Btn" id="Austin">Austin</button>   
+    <button class="Btn" id="Austin">Austin</button>  
+
     <script src="./js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+
 </body>
 
 </html>
